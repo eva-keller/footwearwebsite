@@ -5,9 +5,10 @@
 }
 
 body {
-    background-color: #da3d3d;
+    background-color: #cb021c;
     font-family: "Roboto", sans-serif;
     margin: 0;
+    transition: background 0.4s ease-in-out;
 }
 
 a {
@@ -34,7 +35,6 @@ a {
     font-size: 1.7rem;
     margin: 2rem 0;
     text-align: center;
-
 }
 
 .logo i {
@@ -47,7 +47,7 @@ a {
 }
 
 .logo p {
-    color: #530202;
+    color: #1f1f1f;
     font-weight: bold;
     margin: 0;
 }
@@ -57,20 +57,20 @@ a {
     position: relative;
     height: 60vh;
     width: 100vw;
-    margin-top: 6rem;
+    margin-top: 10rem;
 }
 
 .carousel {
+    display: flex;
     position: absolute;
     left: 0;
     top: 0;
     transform: translateX(0);
-    display: flex;
+    transition: transform 0.4s ease-in-out;
 }
 
 .slide {
-   
-    width: 100%;
+    width: 100vw;
     text-align: center;
 }
 
@@ -82,13 +82,12 @@ a {
 
 .slide h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-top: -2rem;
-
 }
 
 .slide a {
-    background-color: darkred;
+    background-color: #1f1f1f;
     padding: 1rem 2rem;
     font-size: 1.5rem;
 }
@@ -100,13 +99,12 @@ a {
     position: absolute;
     top: 30%;
     transform: translateY(-50%);
-    font-size: 3rem;
+    font-size: 5rem;
     color: black;
     opacity: 0.5;
-
 }
 
-.left-arrow  {
+.left-arrow {
     left: 2rem;
 }
 
